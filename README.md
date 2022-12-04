@@ -30,9 +30,7 @@ In this project, the aim is to implement a CNN to achieve the task of human emot
 
 <br>
 
-Dataset:
-
-[FER-2013](https://www.kaggle.com/datasets/msambare/fer2013)
+Dataset: [FER-2013](https://www.kaggle.com/datasets/msambare/fer2013)
 
 This dataset contains 35887 images and their corresponding labels. The images are in bytes, rather a conventional image file. Therefore, images are first read using the BytesIO method of the io library and then converted to an image using PIL. Then, they are turned into numpy arrays for easier manipulation and convenience.
 
